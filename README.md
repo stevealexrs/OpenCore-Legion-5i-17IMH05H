@@ -12,7 +12,7 @@ Note: This repo contains extra properties files added by Mac. (.DS_STORE, .\__fi
 
 | | |
 |-|-|
-|CPU| Intel i7-10750H (10th gen Comet Lake/Final apple-supported gen :() |
+|CPU| Intel i7-10750H (10th gen Comet Lake/Final apple-supported gen 😞) |
 |GPU| Intel UHD Graphics 630 iGPU + Nvidia GeForce RTX 2060 dGPU |
 |Display| 17.3" FHD 1920x1080 |
 |Wifi| Intel Wireless AX201 |
