@@ -17,7 +17,7 @@ Note: This repo contains extra properties files added by Mac. (.DS_STORE, .\__fi
 |Display| 17.3" FHD 1920x1080 |
 |Wifi| Intel Wireless AX201 |
 |Audio Codec| Realtek ALC257 |
-|Memory| 16GB + 16GB |
+|Memory| 32GB + 32GB |
 |Storage| 1TB SSD + 2TB M.2 NVMe SSD |
 
 ## Status
