@@ -93,6 +93,7 @@ Set *disable-external-gpu* field under *PciRoot(0x0)/Pci(0x2,0x0)* **or** add *-
 
 ### Keyboard Indicator Light
 **Warning**: It is very likely that Fnlock indicator light will break for good in Windows without some sort of keyboard reset.
+
 The keys are working but their indicator lights malfunction. In Mac, Capslock light is working but Numlock light is not. In Windows, FnLock light is not working even when I boot naturally without Opencore, probably broke it but it is merely cosmetic. These lights still work normally in BIOS.
 
 ### AiportItlwm Not Working If You Shutdown From Windows And Boot Mac
