@@ -29,12 +29,12 @@ Note: This repo contains extra properties files added by Mac. (.DS_STORE, .\__fi
 | Audio | Working |
 | Camera | Working |
 | On Screen Brightness Control | Working |
-| Sound | Working |
 | USB ports | Working |
-| Mouse | Working |
-| WiFi/Bluetooth | Mostly Working |
+| Mouse (inclduing Bluetooth) | Working |
+| WiFi/Bluetooth | Working |
 | Keyboard | Mostly working |
 | Touchpad | Not working |
+| Mac App Store Login | Not working |
 
 ## Troubleshooting
 Make sure you have followed all recommended steps in Dortania guide before continuing.
@@ -82,6 +82,14 @@ Don't forget to add the ssdt to the EFI and snapshot it with ProperTree.
 
 ### Ethernet
 This is easily fixed by adding RealtekRTL8111.kext
+
+### Backlight Slider Fix
+Set *disable-external-gpu* field under *PciRoot(0x0)/Pci(0x2,0x0)* **or** add *-wegnoegpu* to boot-args
+
+| disable-external-gpu | Data | 01000000 |
+|-|-|-|
+
+**Warning**: Disabling laptop dGPU through Optimus Method from this guide [Disabling laptop dGPUs (SSDT-dGPU-Off/NoHybGfx)](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html) will result in fan turning at max and computer auto shutdown.
 
 
 
