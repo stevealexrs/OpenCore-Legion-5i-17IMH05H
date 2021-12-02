@@ -50,9 +50,9 @@ Go to Device Manager on Windows and click *Storage Controllers*. There will be m
 
 ![NVMe Controller BIOS device name](https://user-images.githubusercontent.com/59494379/144441672-da749fb9-b30c-48cc-89d1-9fce33e05cf1.png)
 
-You can get the ssdt from [SSDT-DNVMe]https://github.com/programbw/y9000x/blob/master/EFI/CLOVER/ACPI/patched/SSDT-DNVMe.aml or make one yourself. You can decompile the aml to dsl and change the relevant value to the value you got from *BIOS device name*. It should be quite obvious. Here is an example of the code:
+You can get the ssdt from [SSDT-DNVMe](https://github.com/programbw/y9000x/blob/master/EFI/CLOVER/ACPI/patched/SSDT-DNVMe.aml) or make one yourself. You can decompile the aml to dsl and change the relevant value to the value you got from *BIOS device name*. It should be quite obvious. Here is an example of the code:
 
-`
+```
 DefinitionBlock ("", "SSDT", 2, "hack", "NVMe-Pcc", 0x00000000)
 {
     External (_SB_.PCI0.RP09.PXSX, DeviceObj)     // change this if doesn't match
@@ -77,7 +77,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "NVMe-Pcc", 0x00000000)
         })
     }
 }
-`
+```
 Don't forget to add the ssdt to the EFI and snapshot it with ProperTree.
 
 
