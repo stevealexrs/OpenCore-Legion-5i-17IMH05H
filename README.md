@@ -30,7 +30,7 @@ Note: This repo contains extra properties files added by Mac. (.DS_STORE, .\__fi
 | Camera | Working |
 | On Screen Brightness Control | Working |
 | USB ports | Working |
-| Mouse (inclduing Bluetooth) | Working |
+| Mouse (including Bluetooth) | Working |
 | WiFi/Bluetooth | Working |
 | Keyboard | Mostly working |
 | Touchpad | Not working |
