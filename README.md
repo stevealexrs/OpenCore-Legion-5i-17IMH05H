@@ -80,5 +80,8 @@ DefinitionBlock ("", "SSDT", 2, "hack", "NVMe-Pcc", 0x00000000)
 ```
 Don't forget to add the ssdt to the EFI and snapshot it with ProperTree.
 
+### Ethernet
+This is easily fixed by adding RealtekRTL8111.kext
+
 
 
