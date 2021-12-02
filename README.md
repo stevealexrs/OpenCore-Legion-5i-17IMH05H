@@ -99,6 +99,9 @@ The keys are working but their indicator lights malfunction. In Mac, Capslock li
 ### AiportItlwm Not Working If You Shutdown From Windows And Boot Mac
 Probably because of Windows Fast Startup but not sure how to fix it.
 
+### Trackpad
+Likely can be fixed by following this guide to add [SSDT-XOSI](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/trackpad-methods/manual.html#enabling-trackpad). The downside is it might cause issue in Windows so I didn't add it.
+
 ### Weird Error Message But Still Boot
 Unknown
 
