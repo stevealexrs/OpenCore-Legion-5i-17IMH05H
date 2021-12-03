@@ -92,9 +92,7 @@ Set *disable-external-gpu* field under *PciRoot(0x0)/Pci(0x2,0x0)* **or** add *-
 **Warning**: Disabling laptop dGPU through Optimus Method from this guide [Disabling laptop dGPUs (SSDT-dGPU-Off/NoHybGfx)](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html) will result in fan turning at max and computer auto shutdown.
 
 ### Keyboard Indicator Light
-**Warning**: It is very likely that Fnlock indicator light will break for good in Windows without some sort of keyboard reset.
-
-The keys are working but their indicator lights malfunction. In Mac, Capslock light is working but Numlock light is not. In Windows, FnLock light is not working even when I boot naturally without Opencore, probably broke it but it is merely cosmetic. These lights still work normally in BIOS.
+The keys are working but their indicator lights malfunction. In Mac, Capslock light is working but Numlock and FnLock light is not because Mac keyboard doesn't have these lights. There may be other fix but it is unimportant for me.
 
 ### AiportItlwm Not Working If You Shutdown From Windows And Boot Mac
 Probably because of Windows Fast Startup but not sure how to fix it.
