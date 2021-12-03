@@ -104,7 +104,9 @@ Probably because of Windows Fast Startup but not sure how to fix it.
 Likely can be fixed by following this guide to add [SSDT-XOSI](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/trackpad-methods/manual.html#enabling-trackpad). The downside is it might cause issue in Windows so I didn't add it.
 
 ### Linux Multiboot
-If you use [OpenLinuxBoot](https://dortania.github.io/OpenCore-Multiboot/oc/linux.html#method-a-openlinuxboot) method to multiboot after installing linux with linux bootloader, you will see an extra option in Opencore. To disable it, mount the hidden EFI partition using *diskpart* on Windows and delete those EFI files with a third party file explorer with elevated permission. **DO NOT format linux EFI partition, it will stop linux from booting**
+If you use [OpenLinuxBoot](https://dortania.github.io/OpenCore-Multiboot/oc/linux.html#method-a-openlinuxboot) method to multiboot after installing linux with linux bootloader, you will see an extra option in Opencore. To disable it, mount the hidden EFI partition using *diskpart* on Windows and delete those EFI files with a third party file explorer with elevated permission. 
+
+**Warning**: **DO NOT** format linux EFI partition, it will stop linux from booting
 
 ### Weird Error Message But Still Boot
 Unknown
