@@ -36,6 +36,9 @@ Note: This repo contains extra properties files added by Mac. (.DS_STORE, .\__fi
 | Touchpad | Not working |
 | Mac App Store Login | Not working |
 
+## Debug Vs Release
+The main differences are debug logging and opencanopy gui. Release also disable opencore from applying smbios data to windows. 
+
 ## Troubleshooting
 Make sure you have followed all recommended steps in Dortania guide before continuing.
 ### Kernel Panic
